@@ -1,0 +1,16 @@
+<h1>Graficas Doble</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <app-grafica-barra  [horizontal]="true"
+                            [barChartData]="productoData"
+                            [barChartLabels]="aniosLabels">
+
+        </app-grafica-barra>
+    </div>
+    <div class="col-md-6">
+        <app-grafica-barra  [barChartData]="vendedoresData"
+                            [barChartLabels]="aniosLabels">
+        </app-grafica-barra>
+    </div>
+</div>
